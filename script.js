@@ -25,8 +25,8 @@ document.addEventListener('DOMContentLoaded', function() {
       coverUrl: "cover/download.jpg"
     },
     {
-      title: "ek paye nupur.mp3",
-      audioUrl: "songs/ek paye nupur.mp3",
+      title: "ek paye nupr.mp3",
+      audioUrl: "songs/ek paye nupr.mp3",
       coverUrl: "cover/download.jpg"
     },
     {
