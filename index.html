@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Music Player</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class="player-container">
+    <div class="header">
+      <h1 class="main-title">Music Player</h1>
+      <button class="hamburger-menu">
+        <i class="fas fa-bars"></i> Playlist
+      </button>
+    </div>
+    
+    <div class="cover-container">
+      <div class="cover">
+        <img src="https://via.placeholder.com/300" alt="Album Cover" id="cover">
+        <div class="cd-hole"></div>
+        <div class="cd-ring"></div>
+      </div>
+    </div>
+    
+    <div class="track-info">
+      <h2 id="song-title">Song Title</h2>
+      <h3 id="artist">Artist</h3>
+    </div>
+    
+    <div class="progress-controls">
+      <div class="track-controls">
+        <button class="prev-btn" title="Previous Song">
+          <i class="fas fa-step-backward"></i>
+        </button>
+        <button class="play-pause-btn" title="Play/Pause">
+          <i class="fas fa-play"></i>
+        </button>
+        <button class="next-btn" title="Next Song">
+          <i class="fas fa-step-forward"></i>
+        </button>
+      </div>
+      
+      <div class="progress-container">
+        <span id="current-time">0:00</span>
+        <div class="progress-bar">
+          <div class="progress" id="progress"></div>
+        </div>
+        <span id="duration">0:00</span>
+      </div>
+    </div>
+    
+    <div class="volume-container">
+      <i class="fas fa-volume-up"></i>
+      <input type="range" id="volume" min="0" max="1" step="0.01" value="0.7">
+    </div>
+    
+    <div class="playlist-overlay">
+      <div class="playlist">
+        <div class="playlist-header">
+          <h4><i class="fas fa-music"></i> Playlist</h4>
+          <button class="close-playlist">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <ul id="playlist">
+          <!-- Songs will be added dynamically -->
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
