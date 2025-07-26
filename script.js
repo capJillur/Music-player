@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', function() {
   // Sample playlist data 
   const playlist = [
     {
-      title: "Aadat (Juda Hoke Bhi)  Atif Aslam  Kunal Khemu  Kalyug  Sayeed Q  Emraan Hashmi.mp3",
-      audioUrl: "songs/Aadat (Juda Hoke Bhi)  Atif Aslam  Kunal Khemu  Kalyug  Sayeed Q  Emraan Hashmi.mp3",
+      title: "adat atif islam.mp3",
+      audioUrl: "songs/adat atif islam.mp3",
       coverUrl: "cover/download.jpg"
     },
     {
@@ -30,13 +30,13 @@ document.addEventListener('DOMContentLoaded', function() {
       coverUrl: "cover/download.jpg"
     },
     {
-      title: "Jhol  Coke Studio Pakistan  Season 15  Maanu x Annural Khalid.mp3",
-      audioUrl: "songs/Jhol  Coke Studio Pakistan  Season 15  Maanu x Annural Khalid.mp3",
+      title: "jhol.mp3",
+      audioUrl: "songs/jhol.mp3",
       coverUrl: "cover/download.jpg"
     },
     {
-      title: "Sajni - Official Video Song  Boondh A Drop of Jal  Jal - The Band.mp3",
-      audioUrl: "songs/Sajni - Official Video Song  Boondh A Drop of Jal  Jal - The Band.mp3",
+      title: "Sajni.mp3",
+      audioUrl: "songs/Sajni.mp3",
       coverUrl: "cover/download.jpg"
     },
     {
@@ -259,5 +259,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-//   "Jhol  Coke Studio Pakistan  Season 15  Maanu x Annural Khalid.mp3",
-//   "Sajni - Official Video Song  Boondh A Drop of Jal  Jal - The Band.mp3"
+//  "Jhol  Coke Studio Pakistan  Season 15  Maanu x Annural Khalid.mp3",
+//  "Sajni - Official Video Song  Boondh A Drop of Jal  Jal - The Band.mp3"
